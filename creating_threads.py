@@ -20,7 +20,7 @@ thread = Thread(target=get_numbers)
 thread.start()
 
 for i in range(1000000):
-    count = i * 2
+    count = i * 3
 
 get_letter()
 
